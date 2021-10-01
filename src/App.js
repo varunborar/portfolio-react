@@ -15,9 +15,9 @@ function App() {
         <Preloader/>
         <Navbar/>
         <Switch>
-          <Route exact path="/" component={Home}></Route>
           <Route path="/portfolio" component={Portfolio}></Route>
           <Route path='/contact' component={Contact}></Route>
+          <Route path="/" component={Home}></Route>
         </Switch>
         <Footer/>
       </Router>
