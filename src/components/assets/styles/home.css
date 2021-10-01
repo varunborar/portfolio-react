@@ -116,7 +116,7 @@
     .home .name {
         font-size: 50px;
     }
-    .home .type-writer {
+    .home .section .type-writer {
         font-size: 42px;
     }
     .home .banner-img {
@@ -135,7 +135,7 @@
     .home .name {
         font-size: 36px;
     }
-    .home .type-writer {
+    .home .section .type-writer {
         font-size: 22px;
     }
     .home .banner-img {
