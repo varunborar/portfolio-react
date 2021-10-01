@@ -1,0 +1,77 @@
+.bb {
+    top: 0;
+    position: fixed;
+    z-index: -2;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+#home {
+    /* z-index: -1; */
+    min-height: 100%;
+    min-width: 100%;
+}
+
+#red {
+    fill: none;
+    opacity: 0.3;
+    stroke: #CE1B5F;
+    stroke-width: 12px;
+    stroke-miterlimit: 10;
+    animation: show 4s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    /* z-index: -2; */
+}
+
+#blue {
+    fill: none;
+    opacity: 0.3;
+    stroke: #229cb8;
+    stroke-width: 12;
+    stroke-miterlimit: 10;
+    stroke-dasharray: 200;
+    stroke-dashoffset: 800;
+    animation-delay: 4s;
+    animation: draw 12s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    z-index: -2;
+}
+
+#light-blue {
+    fill: none;
+    opacity: 0.4;
+    stroke: #71cfe4;
+    stroke-width: 6;
+    stroke-miterlimit: 10;
+    stroke-dasharray: 200;
+    stroke-dashoffset: 800;
+    animation: draw 8s;
+    animation-delay: 4s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    z-index: -2;
+}
+
+@keyframes draw {
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+
+@keyframes show {
+    0% {
+        opacity: 0.3;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 0.3;
+    }
+}

@@ -1,0 +1,26 @@
+.company-card {
+    margin: 2rem auto;
+    padding: 1rem;
+    background-color: var(--background-color-secondary);
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.company-card img {
+    max-height: 360px;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.company-card h2 {
+    font-weight: normal;
+}
+
+.company-card p {
+    text-align: center;
+    color: var(--text-color-secondary);
+}

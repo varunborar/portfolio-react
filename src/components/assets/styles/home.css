@@ -1,0 +1,144 @@
+.rubber-letter {
+    opacity: 100;
+    display: inline-block;
+    -webkit-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+    padding: 0px;
+    margin: 0px;
+    transition: 0.2s ease-in-out color;
+}
+
+.rubber-letter:hover {
+    display: inline-block;
+    cursor: pointer;
+    animation: rubberletter 1s ease-in-out forwards;
+}
+
+@keyframes rubberletter {
+    0% {
+        transform: scale3d(1, 1, 1);
+    }
+    30% {
+        transform: scale3d(1.25, 0.75, 1);
+    }
+    40% {
+        transform: scale3d(0.75, 1.25, 1);
+    }
+    50% {
+        transform: scale3d(1.15, 0.85, 1);
+    }
+    65% {
+        transform: scale3d(0.95, 1.05, 1);
+    }
+    75% {
+        transform: scale3d(1.05, 0.95, 1);
+    }
+    100% {
+        transform: scale3d(1, 1, 1);
+    }
+}
+
+.home {
+    overflow: hidden;
+}
+
+.home .section {
+    margin: 0 auto;
+    max-width: max-content;
+    min-height: max-content;
+    padding-bottom: 4rem;
+}
+
+.home .greeting {
+    font-weight: 300;
+    padding-top: 20%;
+    font-size: 38px;
+}
+
+.home .greeting::after {
+    content: "";
+    height: 2px;
+    width: 120px;
+    background: var(--text-color-primary);
+    display: inline-block;
+    margin-left: 4%;
+    transform: translateY(-10px);
+    align-items: center;
+}
+
+.home .name {
+    font-weight: 400;
+    font-family: "Poppins";
+    padding: 2px;
+    padding-left: 0px;
+    font-size: 46px;
+}
+
+.home .section .type-writer {
+    font-weight: 300;
+    font-family: "Poppins";
+    font-size: 28px;
+    text-align: left;
+    padding-bottom: 1rem;
+}
+
+.home .section .type-writer span {
+    color: #ff4444;
+    font-weight: 400;
+    display: inline;
+}
+
+.home .section button {
+    margin: 0;
+}
+
+.Typewriter {
+    display: inline;
+}
+
+.banner-img {
+    max-width: 480px;
+    margin: 2.5rem 0;
+}
+
+@media screen and (min-width: 1300px) {
+    .home {
+        /* height: 100vh; */
+        overflow: hidden;
+    }
+    .home .section {
+        margin: 4rem auto;
+        padding-bottom: 5rem;
+    }
+    .home .greeting {
+        font-size: 44px;
+    }
+    .home .name {
+        font-size: 50px;
+    }
+    .home .type-writer {
+        font-size: 42px;
+    }
+    .home .banner-img {
+        max-width: 540px;
+    }
+}
+
+@media screen and (max-width: 472px) {
+    .home .section {
+        margin: 2rem auto;
+        padding-bottom: 1rem;
+    }
+    .home .greeting {
+        font-size: 28px;
+    }
+    .home .name {
+        font-size: 36px;
+    }
+    .home .type-writer {
+        font-size: 22px;
+    }
+    .home .banner-img {
+        max-width: 280px;
+    }
+}

@@ -1,0 +1,50 @@
+.social-media {
+    display: flex;
+    margin: 2rem 0;
+}
+
+.social-media a {
+    text-decoration: none;
+    color: var(--primary-text-color);
+}
+
+.social-media a:hover,
+.social-media a:active {
+    color: var(--accent-color-primary);
+}
+
+.social-media a .icon {
+    font-size: 48px;
+    margin: 8px 24px;
+}
+
+.contact-form {
+    margin: 2rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 80%;
+    margin: 0.75rem auto;
+    padding: 6px 6px;
+    border: none;
+    border-radius: 2px;
+    background-color: var(--background-color-secondary);
+    color: var(--text-color-primary);
+}
+
+.contact-form input::placeholder,
+.contact-form input::-ms-input-placeholder,
+.contact-form textarea::-ms-input-placeholder,
+.contact-form textarea::placeholder {
+    color: var(--text-color-primary);
+}
+
+.contact-form button {
+    display: block;
+    width: 25%;
+}

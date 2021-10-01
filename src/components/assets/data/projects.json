@@ -1,0 +1,40 @@
+[{
+        "_id": 1,
+        "name": "Notes Web-Application",
+        "repoLink": "https://github.com/varunborar/notes-web-app",
+        "activeLink": "https://notes-55937.web.app/",
+        "color": "#edeb01"
+    },
+    {
+        "_id": 2,
+        "name": "Invoice Monkey",
+        "repoLink": "https://github.com/varunborar/Invoice-Monkey",
+        "color": "#ed9500"
+    },
+    {
+        "_id": 3,
+        "name": "Netflix Clone",
+        "repoLink": "https://github.com/varunborar/netflix-clone",
+        "activeLink": "https://varunborar.github.io/netflix-clone/",
+        "color": "#ed0047"
+    },
+    {
+        "_id": 4,
+        "name": "Weather Forecast App",
+        "repoLink": "https://github.com/varunborar/weather-app",
+        "activeLink": "https://project-02-weather-app.herokuapp.com/",
+        "color": "#00c2ed"
+    },
+    {
+        "_id": 5,
+        "name": "Chain Mail",
+        "repoLink": "https://github.com/varunborar/ChainMail",
+        "color": "#ebad56"
+    },
+    {
+        "_id": 6,
+        "name": "Hang Man",
+        "repoLink": "https://github.com/varunborar/HangMan",
+        "color": "#eab6e6"
+    }
+]

@@ -1,0 +1,13 @@
+[{
+        "_id": 1,
+        "logo": "pavitas-logo.png",
+        "name": "Pavita's",
+        "work": "Freelance Designer"
+    },
+    {
+        "_id": 2,
+        "logo": "pinch-of-salt-logo.png",
+        "name": "Pinch of Salt",
+        "work": "Freelance Designer"
+    }
+]

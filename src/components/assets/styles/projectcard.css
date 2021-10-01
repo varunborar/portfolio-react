@@ -1,0 +1,42 @@
+.project-card {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 160px;
+    margin: 20px;
+    box-shadow: 0 0 3px var(--text-color-secondary);
+    border-radius: 12px;
+}
+
+.project-card h2 {
+    font-size: var(--font-size-medium);
+    font-weight: normal;
+    color: black;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 12px;
+}
+
+.project-card:hover .overlay {
+    opacity: 1;
+}
+
+.icon {
+    font-size: 48px;
+    margin: 48px 12px;
+    color: white;
+}

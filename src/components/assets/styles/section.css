@@ -1,0 +1,49 @@
+.section {
+    padding: 1rem;
+    width: 100%;
+}
+
+.section-header {
+    font-size: 32px;
+    font-family: "Poppins";
+    text-align: center;
+}
+
+.section-header::before {
+    content: "";
+    position: relative;
+    display: block;
+    width: 120px;
+    height: 2px;
+    background: var(--background-color-secondary);
+    top: 51px;
+    left: calc(50% - 60px);
+}
+
+.section-header::after {
+    content: "";
+    position: relative;
+    display: block;
+    width: 40px;
+    height: 4px;
+    background: var(--accent-color-primary);
+    bottom: 0;
+    left: calc(50% - 20px);
+}
+
+.section h5 {
+    padding-top: 2rem;
+    font-weight: normal;
+    text-align: center;
+    font-size: var(--font-size-medium);
+}
+
+.section a {
+    text-decoration: none;
+    color: var(--accent-color-secondary);
+}
+
+.section button {
+    display: block;
+    margin: 2rem auto;
+}
