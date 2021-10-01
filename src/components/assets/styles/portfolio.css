@@ -78,6 +78,12 @@ span.color {
     color: var(--accent-color-secondary);
 }
 
+@media (prefers-color-scheme:light) {
+    .title h3 {
+        color: var(--accent-color-primary);
+    }
+}
+
 .title p.content {
     margin-top: 2rem;
     text-align: center;

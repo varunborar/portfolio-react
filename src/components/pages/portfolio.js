@@ -29,7 +29,7 @@ class Portfolio extends Component {
                 <Banner
                     id="introduction"
                     header="Hi, I am Varun. Nice to see you here!"
-                    message="It's been long since I discovered my about my passion to build. I can grasp ideas faster, understand concepts quicker and design things naturally.
+                    message="It's been long since I discovered about my passion to build. I can grasp ideas faster, understand concepts quicker and design things naturally.
                      I'm quite confident, prefer things simple and keep calm when situations get messy."
                 />
 
