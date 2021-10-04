@@ -15,9 +15,9 @@ function App() {
         <Preloader/>
         <Navbar/>
         <Switch>
-          <Route path="/portfolio" component={Portfolio}></Route>
-          <Route path='/contact' component={Contact}></Route>
-          <Route path="/" component={Home}></Route>
+          <Route path={process.env.PUBLIC_URL + "/portfolio"} component={Portfolio}></Route>
+          <Route path={process.env.PUBLIC_URL +'/contact'} component={Contact}></Route>
+          <Route path={process.env.PUBLIC_URL + "/"} component={Home}></Route>
         </Switch>
         <Footer/>
       </Router>

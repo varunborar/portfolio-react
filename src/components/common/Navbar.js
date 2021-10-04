@@ -31,13 +31,26 @@ class Navbar extends Component {
                     <div className="collapse navbar-collapse" id="navbarNav">
                         <ul className="navbar-nav navbar-list">
                             <li className="nav-item ">
-                                <Link className={this.state.activePath==="home" ? "nav-link active" : "nav-link"} onClick={this.handleNavigation} name="home" aria-current="page" to="/">Home</Link>
+                                <Link 
+                                    className={this.state.activePath==="home" ? "nav-link active" : "nav-link"} 
+                                    onClick={this.handleNavigation} 
+                                    name="home" 
+                                    aria-current="page" 
+                                    to={process.env.PUBLIC_URL + "/"}>Home</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className={this.state.activePath==="portfolio" ? "nav-link active" : "nav-link"} onClick={this.handleNavigation} name="portfolio" to="/portfolio">Portfolio</Link>
+                                <Link 
+                                    className={this.state.activePath==="portfolio" ? "nav-link active" : "nav-link"} 
+                                    onClick={this.handleNavigation} 
+                                    name="portfolio" 
+                                    to={process.env.PUBLIC_URL + "/portfolio"}>Portfolio</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className={this.state.activePath==="contact" ? "nav-link active" : "nav-link"} onClick={this.handleNavigation} name="contact" to="/contact">Contact</Link>
+                                <Link 
+                                    className={this.state.activePath==="contact" ? "nav-link active" : "nav-link"} 
+                                    onClick={this.handleNavigation} 
+                                    name="contact" 
+                                    to={process.env.PUBLIC_URL + "/contact"}>Contact</Link>
                             </li>
                         </ul>
                     </div>
