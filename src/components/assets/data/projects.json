@@ -36,5 +36,12 @@
         "name": "Hang Man",
         "repoLink": "https://github.com/varunborar/HangMan",
         "color": "#eab6e6"
+    },
+    {
+        "_id": 7,
+        "name": "LMS Demo",
+        "repoLink": "https://github.com/varunborar/lms",
+        "activeLink": "https://learn-ai-app.herokuapp.com/",
+        "color": "#00c2ed"
     }
 ]
