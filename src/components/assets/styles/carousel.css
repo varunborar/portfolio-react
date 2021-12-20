@@ -1,0 +1,33 @@
+.carousel {
+    margin: 2rem 0;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    min-height: 5rem;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    padding: 0 2rem;
+}
+
+.carousel .scroll-animation {
+    display: block;
+    white-space: nowrap;
+    animation: moveSlideshow 60s linear infinite;
+}
+
+.carousel::-webkit-scrollbar {
+    display: none;
+}
+
+@keyframes moveSlideshow {
+    0% {
+        transform: translateX(0);
+    }
+    98% {
+        transform: translateX(-50%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}

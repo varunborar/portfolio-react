@@ -1,0 +1,76 @@
+[{
+        "_id": 1,
+        "path": "adobe-illustrator.svg",
+        "alt": "Adobe Illustrator"
+    },
+    {
+        "_id": 2,
+        "path": "adobe-xd.svg",
+        "alt": "Adobe XD"
+    },
+    {
+        "_id": 3,
+        "path": "amazon-web-services.svg",
+        "alt": "Amazon Web Services"
+    },
+    {
+        "_id": 4,
+        "path": "android-studio.svg",
+        "alt": "Android Studio"
+    },
+    {
+        "_id": 5,
+        "path": "bootstrap.svg",
+        "alt": "Bootstrap"
+    },
+    {
+        "_id": 6,
+        "path": "git.svg",
+        "alt": "Git"
+    },
+    {
+        "_id": 7,
+        "path": "github.svg",
+        "alt": "GitHub"
+    },
+    {
+        "_id": 8,
+        "path": "google-cloud.svg",
+        "alt": "Google Cloud Platform"
+    },
+    {
+        "_id": 9,
+        "path": "react.svg",
+        "alt": "React"
+    },
+    {
+        "_id": 10,
+        "path": "visual-studio.svg",
+        "alt": "Visual Studio Code"
+    },
+    {
+        "_id": 11,
+        "path": "heroku.svg",
+        "alt": "Heroku"
+    },
+    {
+        "_id": 12,
+        "path": "mongodb.svg",
+        "alt": "MongoDB"
+    },
+    {
+        "_id": 13,
+        "path": "mysql.svg",
+        "alt": "MySQL"
+    },
+    {
+        "_id": 14,
+        "path": "pycharm.svg",
+        "alt": "PyCharm"
+    },
+    {
+        "_id": 15,
+        "path": "python.svg",
+        "alt": "Python"
+    }
+]

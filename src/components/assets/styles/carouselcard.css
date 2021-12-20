@@ -1,0 +1,21 @@
+.carousel-card {
+    display: inline-block;
+    margin: 0.5rem 2rem;
+    padding: 1rem;
+}
+
+.carousel-card:hover {
+    transform: scale(1.2);
+}
+
+.carousel-card img.carousel-card-image {
+    height: 84px;
+    width: 84px;
+}
+
+@media screen and (max-width: 768px) {
+    .carousel-card {
+        margin: 0.5rem 1rem;
+        padding: 12px;
+    }
+}

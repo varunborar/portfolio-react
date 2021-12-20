@@ -107,17 +107,18 @@
         overflow: hidden;
     }
     .home .section {
-        margin: 4rem auto;
-        padding-bottom: 5rem;
+        min-width: 100%;
+        margin: 5rem 3.5rem;
+        padding-bottom: 7rem;
     }
     .home .greeting {
-        font-size: 44px;
+        font-size: 36px;
     }
     .home .name {
-        font-size: 50px;
+        font-size: 42px;
     }
     .home .section .type-writer {
-        font-size: 42px;
+        font-size: 32px;
     }
     .home .banner-img {
         max-width: 540px;

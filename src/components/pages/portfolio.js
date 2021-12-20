@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
 
-import '../assets/styles/portfolio.css'
+import '../assets/styles/portfolio.css';
+import skills from '../assets/data/skills.json';
 
 import Section from '../common/Section';
 import Banner from '../common/Banner';
 import Company from '../common/Company';
 import Project from '../common/Project';
+import Carousel from '../common/Carousel';
 
 class Portfolio extends Component {
 
@@ -99,6 +101,10 @@ class Portfolio extends Component {
                         </p>
                     </div>
                 </div>
+
+                <Section id="skills" name="Skills">
+                    <Carousel data={skills} />
+                </Section>
 
                 <Section id="companies" name="Experience">
                     <Company/>
