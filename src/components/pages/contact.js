@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import '../assets/styles/contact.css';
-import axios from 'axios';
+// import axios from 'axios';
 
 import Section from '../common/Section';
 
@@ -26,16 +26,34 @@ class Contact extends Component {
     handleSumbit = (event) => {
         event.preventDefault();
         const message = {
-            "chatID": 1244515308,
-            "from": this.state.from + " " + this.state.email,
+            "name": this.state.from,
+            "email": this.state.email,
             "subject": this.state.subject,
             "message": this.state.message
         }
 
-        axios.post("https://messageapibot.herokuapp.com/message/text", message);
+        const messageString = JSON.stringify(message);
+
+        // axios.post("https://script.google.com/macros/s/AKfycbz2FOcX582I8H7Zexl2eF7ef3RcjxavR1O-yPVa1Lmo8sdwkvxkQfvZ_zP7epKmXUcrDg/exec",{
+        //     headers: {
+        //         "Content-Type": "text/plain"
+        //     },
+        //     redirect: "follow",
+        //     messageString
+        // });
+
+        fetch("https://script.google.com/macros/s/AKfycbz2FOcX582I8H7Zexl2eF7ef3RcjxavR1O-yPVa1Lmo8sdwkvxkQfvZ_zP7epKmXUcrDg/exec", {
+            redirect: "follow",
+            method: "POST",
+            body: messageString,
+            headers: {
+              "Content-Type": "text/plain;charset=utf-8",
+            },
+        });
 
         this.setState({
             from: "",
+            email: "",
             subject: "",
             message: ""
         })
@@ -66,21 +84,21 @@ class Contact extends Component {
                             <input
                                 type="text"
                                 name="from"
-                                placeholder="From"
+                                placeholder="Your Name"
                                 onChange={this.onStateChange}
                                 value={this.state.from}
                             />
                             <input
                                 type="text"
                                 name="email"
-                                placeholder="Your Email"
+                                placeholder="How should I reach out to you?"
                                 onChange={this.onStateChange}
                                 value={this.state.email}
                             />
                             <input
                                 type="text"
                                 name="subject"
-                                placeholder="Subject"
+                                placeholder="What do you want to talk about?"
                                 onChange={this.onStateChange}
                                 value={this.state.subject}
                             />
@@ -88,7 +106,7 @@ class Contact extends Component {
                                 rows="6"
                                 type="text"
                                 name="message"
-                                placeholder="Message"
+                                placeholder="Your message"
                                 onChange={this.onStateChange}
                                 value={this.state.message}
                             />
