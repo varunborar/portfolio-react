@@ -1,12 +1,12 @@
 .portfolio .header {
-    min-height: 65vh;
+    min-height: 80vh;
     background-color: var(--background-color-primary);
     color: var(--text-color-secondary);
 }
 
 .portfolio .header .left,
 .portfolio .header .right {
-    padding: 10%;
+    padding: 15% 5%;
 }
 
 .portfolio .header .left {

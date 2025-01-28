@@ -6,7 +6,7 @@ class ProjectCard extends Component {
 
     render() {
         return (
-            <div className="project-card col-lg-3 col-md-4 col-sm-10" style={{ backgroundColor: this.props.backgroundColor }}>
+            <div className="project-card col-lg-2 col-md-4 col-sm-6" style={{ backgroundColor: this.props.backgroundColor }}>
                 <h2>{this.props.name}</h2>
 
                 <div className="overlay">
