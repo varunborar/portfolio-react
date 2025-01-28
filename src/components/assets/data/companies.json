@@ -1,13 +1,19 @@
 [{
         "_id": 1,
-        "logo": "pavitas-logo.png",
-        "name": "Pavita's",
-        "work": "Freelance Designer"
+        "logo": "celigo-logo.webp",
+        "name": "Celigo",
+        "work": "Software Engineer II, DevOps"
     },
     {
         "_id": 2,
-        "logo": "pinch-of-salt-logo.png",
-        "name": "Pinch of Salt",
+        "logo": "slb.jpeg",
+        "name": "Schlumberger",
+        "work": "Cloud Engineer Intern"
+    },
+    {
+        "_id": 3,
+        "logo": "pavitas-logo.png",
+        "name": "Pavita's",
         "work": "Freelance Designer"
     }
 ]

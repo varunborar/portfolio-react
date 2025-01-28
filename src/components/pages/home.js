@@ -12,7 +12,7 @@ class Home extends Component {
     }
 
     type = (typewriter) => {
-        const skills = [ 'Cloud computing', 'Designing', 'Web-Devlopment', 'Machine Learning', 'Android'];
+        const skills = [ 'Cloud computing', 'DevOps', 'SRE', 'Command Line Tools', 'Web Development', 'Automation'];
         for (var skill of skills) {
             typewriter
                 .typeString(skill)

@@ -1,76 +1,92 @@
-[{
+[
+    {
         "_id": 1,
-        "path": "adobe-illustrator.svg",
-        "alt": "Adobe Illustrator"
+        "path": "argocd.png",
+        "alt": "Argo"
     },
     {
         "_id": 2,
-        "path": "adobe-xd.svg",
-        "alt": "Adobe XD"
+        "path": "docker.png",
+        "alt": "Docker"
     },
     {
         "_id": 3,
+        "path": "helm.svg",
+        "alt": "Helm Charts"
+    },
+    {
+        "_id": 4,
+        "path": "istio.svg",
+        "alt": "ISTIO Service Mesh"
+    },
+    {
+        "_id": 5,
         "path": "amazon-web-services.svg",
         "alt": "Amazon Web Services"
     },
     {
-        "_id": 4,
-        "path": "android-studio.svg",
-        "alt": "Android Studio"
-    },
-    {
-        "_id": 5,
-        "path": "bootstrap.svg",
-        "alt": "Bootstrap"
-    },
-    {
         "_id": 6,
+        "path": "azure.png",
+        "alt": "Microsoft Azure"
+    },
+    {
+        "_id": 7,
         "path": "git.svg",
         "alt": "Git"
     },
     {
-        "_id": 7,
+        "_id": 8,
         "path": "github.svg",
         "alt": "GitHub"
     },
     {
-        "_id": 8,
-        "path": "google-cloud.svg",
-        "alt": "Google Cloud Platform"
-    },
-    {
         "_id": 9,
-        "path": "react.svg",
-        "alt": "React"
-    },
-    {
-        "_id": 10,
         "path": "visual-studio.svg",
         "alt": "Visual Studio Code"
     },
     {
-        "_id": 11,
-        "path": "heroku.svg",
-        "alt": "Heroku"
-    },
-    {
-        "_id": 12,
+        "_id": 10,
         "path": "mongodb.svg",
         "alt": "MongoDB"
     },
     {
-        "_id": 13,
+        "_id": 11,
         "path": "mysql.svg",
         "alt": "MySQL"
     },
     {
+        "_id": 12,
+        "path": "python.svg",
+        "alt": "Python"
+    },
+    {
+        "_id": 13,
+        "path": "snowflake.png",
+        "alt": "Snowflake"
+    },
+    {
         "_id": 14,
-        "path": "pycharm.svg",
-        "alt": "PyCharm"
+        "path": "jenkins.png",
+        "alt": "Jenkins"
     },
     {
         "_id": 15,
-        "path": "python.svg",
-        "alt": "Python"
+        "path": "kubernetes.svg",
+        "alt": "Kubernetes"
+    },
+    {
+        "_id": 16,
+        "path": "prometheus.png",
+        "alt": "Prometheus"
+    },
+    {
+        "_id": 18,
+        "path": "splunk.png",
+        "alt": "Splunk"
+    },
+    {
+        "_id": 19,
+        "path": "redis.png",
+        "alt": "Redis"
     }
 ]
